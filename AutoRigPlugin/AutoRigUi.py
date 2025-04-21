@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append("A:/Rangement/Etribart/AutoRigPlugin")
+sys.path.append("*****")
 from PySide2.QtGui import *
 from PySide2.QtCore import *
 from PySide2.QtWidgets import *
@@ -181,7 +181,7 @@ class AutoRigUI(QDialog):
 
     def on_create_button_click(self):
         rig_type = self.rig_type_combo.currentText()
-        arc.realiser(f"A:/Rangement/Etribart/AutoRigPlugin/{rig_type.lower()}.json")
+        arc.realiser(f"******{rig_type.lower()}.json")
         self.show_guide_mode()
 
     def show_guide_mode(self):
