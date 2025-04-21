@@ -1,0 +1,774 @@
+[
+    {
+        "name": "G_World",
+        "position": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": null,
+        "type": "Circle",
+        "hierarchy": null
+    },
+    {
+        "name": "G_Arm_R",
+        "position": [
+            1.4269664450479667,
+            14.26200675318603,
+            0.09753315895795822
+        ],
+        "orientation": [
+            6.113124515327865,
+            -9.817844700792513,
+            -32.13281191709032
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R"
+        ]
+    },
+    {
+        "name": "G_FootRoll_F_R",
+        "position": [
+            0.8321190312258272,
+            -0.00979901864597274,
+            -1.512186490089042
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R",
+            "G_Knee_R",
+            "G_Ankle_R",
+            "G_Toe_R"
+        ]
+    },
+    {
+        "name": "G_Pinky_2_R",
+        "position": [
+            7.117281110324548,
+            10.83479470094249,
+            0.06842919665701065
+        ],
+        "orientation": [
+            6.068497940977218,
+            -6.98711428382825,
+            -31.82750755946614
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Pinky_1_R"
+        ]
+    },
+    {
+        "name": "G_Ring_3_R",
+        "position": [
+            7.418047661475116,
+            10.69087772532464,
+            -0.23528916564332994
+        ],
+        "orientation": [
+            6.050003635578672,
+            5.378991705326965,
+            -30.51732108818233
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Ring_1_R",
+            "G_Ring_2_R"
+        ]
+    },
+    {
+        "name": "G_Shoulder_R",
+        "position": [
+            0.075362149699302,
+            14.166358189333133,
+            -0.3923762352325705
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 14,
+        "type": "CubL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest"
+        ]
+    },
+    {
+        "name": "G_PoleVJ_R",
+        "position": [
+            0.8321190312258271,
+            4.907217014456128,
+            -3.092556597839621
+        ],
+        "orientation": [
+            84.65766905566808,
+            0.0,
+            0.0
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R",
+            "G_Knee_R"
+        ]
+    },
+    {
+        "name": "G_Thumb_1_R",
+        "position": [
+            6.145436699095898,
+            11.458007287473865,
+            -0.23405902530061176
+        ],
+        "orientation": [
+            40.54715516095928,
+            80.71090819704877,
+            9.087379262225841
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R"
+        ]
+    },
+    {
+        "name": "G_FootRoll_R_R",
+        "position": [
+            1.4140528208052907,
+            -0.009799018645972657,
+            -0.44157426182681464
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R",
+            "G_Knee_R",
+            "G_Ankle_R",
+            "G_Toe_R"
+        ]
+    },
+    {
+        "name": "G_PoleVB_R",
+        "position": [
+            4.443758300666571,
+            12.025249250895362,
+            3.4891421410123846
+        ],
+        "orientation": [
+            6.2377899449106415,
+            15.041619422926207,
+            -29.46174105559633
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R"
+        ]
+    },
+    {
+        "name": "G_Hips",
+        "position": [
+            0.0,
+            9.75148486799658,
+            0.0
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 13,
+        "type": "CubL",
+        "hierarchy": [
+            "G_World"
+        ]
+    },
+    {
+        "name": "G_Index_3_R",
+        "position": [
+            7.140203895651041,
+            10.947781974324299,
+            -0.960779883939651
+        ],
+        "orientation": [
+            7.317241246513265,
+            34.524615640808186,
+            -26.924089452454528
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Index_1_R",
+            "G_Index_2_R"
+        ]
+    },
+    {
+        "name": "G_Knee_R",
+        "position": [
+            0.8321190312258271,
+            5.1865356680639385,
+            -0.1055880526843968
+        ],
+        "orientation": [
+            -275.3423309443319,
+            0.0,
+            0.0
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R"
+        ]
+    },
+    {
+        "name": "G_Ring_2_R",
+        "position": [
+            7.162054046604332,
+            10.841773748527585,
+            -0.2073094762480288
+        ],
+        "orientation": [
+            6.05000363557867,
+            5.378991705326964,
+            -30.51732108818233
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Ring_1_R"
+        ]
+    },
+    {
+        "name": "G_Footroll_B_R",
+        "position": [
+            0.8321190312258272,
+            -0.009799018645972213,
+            0.9534532906460081
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R",
+            "G_Knee_R",
+            "G_Ankle_R"
+        ]
+    },
+    {
+        "name": "G_Index_2_R",
+        "position": [
+            6.920952790757136,
+            11.059130341160998,
+            -0.7916181332472039
+        ],
+        "orientation": [
+            7.317241246513265,
+            34.524615640808186,
+            -26.924089452454528
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Index_1_R"
+        ]
+    },
+    {
+        "name": "G_Pinky_1_R",
+        "position": [
+            6.877571398405145,
+            10.983580392802876,
+            0.03385226541157066
+        ],
+        "orientation": [
+            6.068497940977216,
+            -6.9871142838282365,
+            -31.827507559466145
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R"
+        ]
+    },
+    {
+        "name": "G_Ring_1_R",
+        "position": [
+            6.91826480589343,
+            10.985475875400981,
+            -0.18066370527264575
+        ],
+        "orientation": [
+            6.050003635578672,
+            5.378991705326973,
+            -30.51732108818235
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R"
+        ]
+    },
+    {
+        "name": "G_Ankle_R",
+        "position": [
+            0.8321190312258274,
+            0.9968179447957422,
+            0.2862025858069909
+        ],
+        "orientation": [
+            -1.9083328088781104e-14,
+            0.0,
+            0.0
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R",
+            "G_Knee_R"
+        ]
+    },
+    {
+        "name": "G_Index_1_R",
+        "position": [
+            6.7121543782885595,
+            11.16517022742621,
+            -0.6305210887781255
+        ],
+        "orientation": [
+            7.317241246513265,
+            34.52461564080818,
+            -26.924089452454535
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R"
+        ]
+    },
+    {
+        "name": "G_Hip_R",
+        "position": [
+            0.8321190312258272,
+            9.347072138302757,
+            0.2584117226476665
+        ],
+        "orientation": [
+            -175.0,
+            0.0,
+            0.0
+        ],
+        "color": 14,
+        "type": "CubL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips"
+        ]
+    },
+    {
+        "name": "G_Footroll_L_R",
+        "position": [
+            0.48256055278606824,
+            -0.009799018645972685,
+            -0.574301619046709
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R",
+            "G_Knee_R",
+            "G_Ankle_R",
+            "G_Toe_R"
+        ]
+    },
+    {
+        "name": "G_Toe_R",
+        "position": [
+            0.8321190312258272,
+            0.21589276639946509,
+            -0.7728810492124881
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Hip_R",
+            "G_Knee_R",
+            "G_Ankle_R"
+        ]
+    },
+    {
+        "name": "G_Chest",
+        "position": [
+            0.0,
+            13.030246206062921,
+            -0.016678779636519647
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 13,
+        "type": "CubL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips"
+        ]
+    },
+    {
+        "name": "G_Middle_1_R",
+        "position": [
+            6.890166170243473,
+            11.032340175326297,
+            -0.42352823452545085
+        ],
+        "orientation": [
+            6.56381715627799,
+            23.36982171757112,
+            -28.473297342382928
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R"
+        ]
+    },
+    {
+        "name": "G_Thumb_3_R",
+        "position": [
+            6.2775276490483884,
+            11.479134988179515,
+            -1.0519197220298246
+        ],
+        "orientation": [
+            40.54715516095918,
+            80.71090819704875,
+            9.087379262225854
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Thumb_1_R",
+            "G_Thumb_2_R"
+        ]
+    },
+    {
+        "name": "G_Pinky_3_R",
+        "position": [
+            7.3689909704272365,
+            10.678560623551201,
+            0.10473708946986522
+        ],
+        "orientation": [
+            6.068497940977218,
+            -6.98711428382825,
+            -31.82750755946614
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Pinky_1_R",
+            "G_Pinky_2_R"
+        ]
+    },
+    {
+        "name": "G_ForeArm_R",
+        "position": [
+            3.9302135010160155,
+            12.689724460426897,
+            0.6090823439474184
+        ],
+        "orientation": [
+            6.237789944910643,
+            15.041619422926201,
+            -29.461741055596338
+        ],
+        "color": 17,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R"
+        ]
+    },
+    {
+        "name": "G_Thumb_2_R",
+        "position": [
+            6.21511670865086,
+            11.469152474843423,
+            -0.6654931332634892
+        ],
+        "orientation": [
+            40.54715516095919,
+            80.71090819704875,
+            9.087379262225863
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Thumb_1_R"
+        ]
+    },
+    {
+        "name": "G_Middle_2_R",
+        "position": [
+            7.119528466825594,
+            10.907944980734024,
+            -0.5362769140482493
+        ],
+        "orientation": [
+            6.563817156277991,
+            23.369821717571114,
+            -28.473297342382903
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Middle_1_R"
+        ]
+    },
+    {
+        "name": "G_Head",
+        "position": [
+            0.0,
+            15.511731904807476,
+            0.0
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 13,
+        "type": "CubL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Neck"
+        ]
+    },
+    {
+        "name": "G_Hand_R",
+        "position": [
+            6.032344879666252,
+            11.502248055970695,
+            -0.03971920949849406
+        ],
+        "orientation": [
+            6.2377899449106415,
+            15.041619422926207,
+            -29.46174105559633
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R"
+        ]
+    },
+    {
+        "name": "G_Middle_3_R",
+        "position": [
+            7.360372907892414,
+            10.777322417394599,
+            -0.6546699241695441
+        ],
+        "orientation": [
+            6.563817156277993,
+            23.36982171757111,
+            -28.47329734238291
+        ],
+        "color": 14,
+        "type": "SphL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest",
+            "G_Shoulder_R",
+            "G_Arm_R",
+            "G_ForeArm_R",
+            "G_Hand_R",
+            "G_Middle_1_R",
+            "G_Middle_2_R"
+        ]
+    },
+    {
+        "name": "G_Neck",
+        "position": [
+            0.0,
+            14.607253592386616,
+            0.0
+        ],
+        "orientation": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "color": 13,
+        "type": "CubL",
+        "hierarchy": [
+            "G_World",
+            "G_Hips",
+            "G_Chest"
+        ]
+    }
+]
