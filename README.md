@@ -8,4 +8,4 @@ Il m’aide également à mieux appréhender la création d’un rig, étape par
 
 ### Programe :
 - AutoRigUI : Ce module est dédié à la gestion de l’interface utilisateur (UI) et de l’expérience utilisateur (UX).
-– AutoRigCore : Ce module est dédié à la gestion de toute la logique de création du rig, incluant la génération des joints, des contrôleurs, les contraintes, ainsi que les systèmes IK/FK et Squash & Stretch.
+- AutoRigCore : Ce module est dédié à la gestion de toute la logique de création du rig, incluant la génération des joints, des contrôleurs, les contraintes, ainsi que les systèmes IK/FK et Squash & Stretch.
